@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import Home from './views/home';
-import Produtos from './views/produtos';
-import CadastroProduto from './views/cadastroproduto';
+import Home from './views/home/home';
+import Produtos from './views/produtos/produtos';
+import CadastroProduto from './views/cadastroproduto/cadastroproduto';
 
 export default () => {
     return (

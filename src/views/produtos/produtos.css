@@ -1,4 +1,4 @@
-.card {
+.tamanhocard {
     max-width: 200px;
 }
 
@@ -6,6 +6,7 @@
     width: 90%;
     display: 'block';
 }
+
 
 
 

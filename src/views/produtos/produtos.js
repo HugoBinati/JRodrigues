@@ -1,6 +1,7 @@
 import React from 'react';
-import Cimento from '../assets/img/Cimento.png';
+import Cimento from '../../assets/img/Cimento.png'
 import './produtos.css';
+
 
 class Produtos extends React.Component {
   render (){
@@ -10,7 +11,7 @@ class Produtos extends React.Component {
             <h3 className="display-1">Produtos</h3>
             </div>
             <grid className="cards">
-                <div className="card mb-3" align="center" >
+                <div className="card mb-3 tamanhocard" align="center" >
                     <h3 className="card-header"></h3>
                     <img alt="Cimento" src={Cimento} />
                     <div className="card-body">
